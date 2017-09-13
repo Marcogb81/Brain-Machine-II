@@ -4,7 +4,10 @@ import pygame
 from pygame.locals import *
 import math
 import numpy
-
+license = 'GPLv3'
+authors ='Marco Garcia Baturan, Reset Reboot'
+date = '2017/09/13/Wednesday'
+doc_license ='/Brain_machine_II/gpl-3.0.txt'
 """Brain Machine II in Python:Program who emulate a Brain machine, a device who induce alpha waves in the brain.
 Based in Dream Machine developed by Brion Gysin and Ian Sommerville who reads the book:'The Living Brain' of Walter Gray.
 Use a code (thank you Reset) for sinusoidal sound with binaural beat of 10 Hz of perception and endless
