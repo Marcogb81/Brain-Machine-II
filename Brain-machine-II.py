@@ -6,7 +6,7 @@ from pygame.locals import *
 import math
 import numpy
 license = 'GPLv3'
-authors ='Marco Garcia Baturan, Reset Reboot'
+authors ='Marco Garcia Baturan, Reset Reboot, remoteObserver '
 date = '2017/09/13/Wednesday'
 doc_license ='/Brain_machine_II/gpl-3.0.txt'
 """Brain Machine II in Python:Program who emulate a Brain machine, a device who induce alpha waves in the brain.
