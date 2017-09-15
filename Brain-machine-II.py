@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+from os.path import dirname, join, realpath
 import pygame
 from pygame.locals import *
 import math
@@ -56,7 +57,8 @@ if __name__ == "__main__":     # Windows compatibility
     # play once, then loop forever
     sound.play(loops=-1)
     # play relaxing scientific meditation music
-    pygame.mixer.music.load("Marconi Union - Weightless.mp3")
+    pygame.mixer.music.load(join(realpath(dirname(__file__)), 
+                                 "Marconi Union - Weightless.mp3"))
     pygame.mixer.music.play(-1)
     # refresh control of screen
     reloj = pygame.time.Clock()
