@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python 2.7
 
 from os.path import dirname, join, realpath
 import pygame
